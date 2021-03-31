@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <table border="1">
+                    <tr>
+                        <td colspan="2" style="text-align:center"><b>XYZ Online Delivery</b></td>
+                    </tr>
+                    <tr>
+                            <td colspan="2" style="text-align:center"><b>Personal Details</b></td>
+                        </tr>
+                    <tr>
+                            <td>First Name*</td>
+                            <td><input type="text" maxlength="20" required></td>
+                    </tr>
+                    <tr>
+                            <td>Phone 
+                                Number*</td>
+                            <td><input type="text" max="10" required></td>
+                    </tr>
+                    <tr>
+                            <td colspan="2" style="text-align:center"><b>Order Preferences</b></td>
+                    </tr>
+                    <tr>
+                        <td>Size</td>
+                        <td> <input type="checkbox" value="small" id="small" class="small" checked><label for="small">Small</label>
+                            <input type="checkbox" value="medium" id="medium" class="medium" checked><label for="medium">Medium</label>
+                            <input type="checkbox" value="large" id="large" class="large"><label for="large">Large  </label></td>
+                    </tr>
+                    <tr>
+                        <td>Base</td>
+                        <td>
+                                <select>
+                                        <option value="Chicken Stuffed Crust">Chicken Stuffed Crust</option>
+                                        <option value="Pan Pizza" selected>Pan Pizza</option>
+                           
+                                        <option value="Cheese Crust">Cheese Crust</option>
+                                    </select>
+                        </td>
+                    </tr>
+                   <tr>
+                       <td>Toppings</td> Cheese olives Tomatoes Capsicum Jalapenos Mushrooms Pepperoni Onion
+                       <td> <input type="checkbox" value="Cheese" id="Cheese" class="Cheese"> <label for="Cheese">Cheese</label>
+                        <input type="checkbox" value="olives" id="olives" class="olives" checked><label for="olives">olives</label>
+                        <input type="checkbox" value="Tomatoes" id="Tomatoes" class="Tomatoes"><label for="Tomatoes">Tomatoes </label>
+                        <input type="checkbox" value="Capsicum" id="Capsicum" class="Capsicum" checked><label for="Capsicum">Capsicum</label>
+                        <input type="checkbox" value="Jalapenos" id="Jalapenos" class="Jalapenos" ><label for="Jalapenos">Jalapenos</label> <br>
+                        <input type="checkbox" value="Mushrooms" id="Mushrooms" class="Mushrooms" checked><label for="Mushrooms">Mushrooms </label>
+                        <input type="checkbox" value="Pepperoni" id="Pepperoni" class="Pepperoni" checked><label for="Pepperoni">Pepperoni</label>
+                        <input type="checkbox" value="Onion" id="Onion" class="Onion" checked><label for="Onion">Onion </label>
+                        </td>
+                   </tr>
+                   <tr>
+                        <td>Address</td>
+                        <td><textarea name="address" id="address" cols="30" rows="2"></textarea></td>
+                   </tr>
+                   <tr>
+                        <td colspan="2" style="text-align:center"><b>Confirm details and proceed to pay?<input type="checkbox" name="yes" id="yes" value="yes"> <label for="yes">Yes</label><input type="checkbox" name="no" id="no" value="no"> <label for="no">No</label> </b></td>
+             
+                    </tr>
+                    <tr><td colspan="2" style="text-align:center"><input type="submit" value="Submit"></td></tr>
+        </table>
+    </center>
+</body>
+</html>
