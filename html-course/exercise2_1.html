@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Special Input Types Demo</title>
+</head>
+<body>
+    <h3><center>Customer Registration</center></h3><br><br>
+    <center><form name="custForm" autocomplete="off">
+     
+         User Name	:  <input type="text" name="fname" pattern="[A-Za-z]*" maxlength="15"  autofocus>   <br><br><!-- focus is here when page is loaded) -->
+     
+         Password 	: <input type="password" pattern="[0-9]*[\\w]+[0-9]*" minlength="8" maxlength="12">   <br><br>	<!-- password should contain alphabets imposed using pattern attribute -->
+      
+         Email	:    <input type="email" size="30" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/> <br><br>  <!-- autocomplete provides auto fill feature when set to 'on' -->
+         
+         Gender: <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+         <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+         <input type="radio" id="others" name="gender" value="others"> <label for="others">Other</label>  <br><br>
+         Age (Yrs)	: <input type="number" min="21" max="60">    <br><br>	<!-- required attribute : Age is necessary -->
+      
+         Address: <textarea name="textarea" id="textarea" cols="20" rows="4" maxlength="100"></textarea>  <br><br>
+     
+          Company website:  <input type="url"> <br><br>
+      
+         Choose country: 
+         <select name="country" id="country">
+             <option value="india">india</option>
+             <option value="United States">United States</option>
+
+             <option value="Germany">Germany</option>
+             <option value="Japan">Japan</option>
+         </select>
+         <br><br>
+         
+          Date of Journey: <input type="date"><br><br>
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+         
+    
+    </form>
+    </center>
+</body>
+</html>

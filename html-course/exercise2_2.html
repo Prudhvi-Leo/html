@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Input Elements</title>
+</head>
+<body>
+    <p>
+        Application for Drivers licence
+    </p>
+    <br>
+    <form method="post">
+          Name:
+            <input type="text" required="required" pattern="[A-Za-z]+">
+            <br/>
+            Age: <input type="number" pattern="[0-9]+" required>
+            <br/>
+         Address: <input type="text" maxlength="30" required>
+            <br/>
+        Contact no: <input type="text"  pattern="[0-9]+" max="10"><br/>
+        <input type="checkbox"> I own an expired driver's license.<br>
+            <input type="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Booking</title>
+</head>
+<body>
+    <center>
+        <table>
+                <p>Dine Booking</p>
+           <tr> <td>  Visitor Name: </td><td ><input type="text" maxlength="20" autofocus required></td></tr>
+  <tr> <td>  Number of members:</td>  <td> <input type="text" min="10" max="99"required></td> </tr>
+          <tr>  <td> Contact No:</td> <td><input type="number" required></td> </tr>
+            <tr> <td>
+                Email:</td><td> <input type="email"></td> </tr>   
+                
+               <tr><td>Type of Food:</td>
+                <td><input type="checkbox" id="south" name="food1" value="SouthIndian" checked><label for="south">South Indian</label>
+                <input type="checkbox" id="north" name="food2" value="NorhtIndian"><label for="north">North Indian</label>
+                <input type="checkbox" id="chin" name="food3" value="chinese"><label for="chin">Chinese</label>
+                <input type="checkbox" id="west" name="food4" value="western"><label for="west">western</label></td>
+                </tr> <tr>
+                   <td>Room Status:</td>
+                   <td><input type="radio" id="ac" name="room" value="male" checked> <label for="male">AC</label>
+                    <input type="radio" id="nonac" name="room" value="nonac"> <label for="nonac">Non-AC</label></td>
+               </tr>
+            <tr>
+            <td> Venue Preference :  </td>
+            <td> <input list="venue" name="venue">
+                <datalist id="venue">
+                  <option value="Arena">
+                  <option value="Fiesta">
+                  <option value="Vista">
+                  <option value="Mythri">
+                  <option value="Magna">
+                       <option value="Oasis">
+                               <option value="Amoeba">
+                </datalist></td>
+        </tr>
+         
+
+        <tr>
+            <td> <input type="submit" value="Book"></td>
+            <td><input type="reset" value="Reset"></td>
+        </tr>
+        </table>
+    </center>
+</body>
+</html>
